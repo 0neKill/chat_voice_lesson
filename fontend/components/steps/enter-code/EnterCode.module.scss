@@ -1,0 +1,22 @@
+.block {
+  text-align: center;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+
+  input {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+
+  .inputList {
+    display: flex;
+    justify-content: space-between;
+  }
+}

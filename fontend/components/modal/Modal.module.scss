@@ -1,0 +1,62 @@
+
+.modal {
+  position: absolute;
+  content: '';
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  padding: 4rem 2rem;
+  border-radius: .8rem;
+  box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+  z-index: 10000;
+  background: rgb(190, 54%, 36%,);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.modal__details {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .4);
+}
+
+
+.modal__description {
+  margin-top: 2rem;
+
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+
+
+
+.modal__btn {
+  border: 1px solid hsla(0, 0%, 100%, .4);
+  border-radius: 100rem;
+
+  color: inherit;
+  background: transparent;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: .2rem;
+
+  transition: .2s;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border-color: hsla(0, 0%, 100%, .6);
+    transform: translateY(-.2rem);
+  }
+}
+.input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 100rem;
+  border: 1px solid hsla(278, 31%, 19%, 0.4);
+}
+
